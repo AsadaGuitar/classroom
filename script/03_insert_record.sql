@@ -1,0 +1,103 @@
+INSERT INTO
+    teachers(name, login_id)
+VALUES
+    ('佐藤悠真', 'sato'),
+    ('鈴木悠人', 'suzuki'),
+    ('高橋陽翔', 'takahashi'),
+    ('田中蓮', 'tanaka'),
+    ('渡辺湊', 'watanabe'),
+    ('伊藤大翔', 'ito'),
+    ('山本蓮', 'yamamoto'),
+    ('中村陽翔', 'nakamura'),
+    ('小林新', 'kobayashi'),
+    ('加藤蒼', 'kato');
+
+INSERT INTO
+    classrooms(name)
+VALUES
+    ('高校普通クラス'),
+    ('高校特進クラス'),
+    ('中学普通クラス'),
+    ('中学特進クラス'),
+    ('小学普通クラス'),
+    ('小学特進クラス');
+
+INSERT INTO
+    teacher_classrooms(teacher_id, classroom_id)
+VALUES
+    (1, 1),
+    (1, 2),
+    (2, 5),
+    (2, 6),
+    (3, 3),
+    (3, 4),
+    (4, 1),
+    (4, 3),
+    (4, 5),
+    (5, 2),
+    (5, 4),
+    (5, 6),
+    (6, 2),
+    (7, 4),
+    (8, 6),
+    (9, 1),
+    (9, 3),
+    (10, 5);
+
+INSERT INTO
+    students(classroom_id, name, login_id)
+VALUES
+    (1, '吉田樹', 'yoshida'),
+    (2, '山田蓮', 'yamada'),
+    (3, '佐々木蓮', 'sasaki'),
+    (4, '山口陽翔', 'yamaguchi'),
+    (5, '斎藤蒼', 'saito'),
+    (6, '松本結菜', 'matsumoto'),
+    (1, '井上咲良', 'inoue'),
+    (2, '木村陽葵', 'kimura'),
+    (3, '林結月', 'hayashi'),
+    (4, '清水結愛', 'shimizu'),
+    (5, '山崎結葉', 'yamazaki'),
+    (6, '森凛', 'mori'),
+    (1, '阿部陽葵', 'abe'),
+    (2, '池田紬', 'ikeda'),
+    (3, '橋本陽葵', 'hashimoto'),
+    (4, '山下翔', 'yamashita'),
+    (5, '石川斗', 'ishikawa'),
+    (6, '中島さくら', 'nakajima'),
+    (1, '前田芽依', 'maeda'),
+    (2, '藤田澪', 'hujita'),
+    (3, '小川凛', 'ogawa'),
+    (4, '後藤彩葉', 'goto'),
+    (5, '岡田莉子', 'okada'),
+    (6, '長谷川結菜', 'hasegawa'),
+    (1, '村上あかり', 'murakami'),
+    (2, '近藤ひかり', 'kondo'),
+    (3, '石井ひまり', 'ishi'),
+    (4, '斉藤ひなた', 'saito'),
+    (5, '坂本つむぎ', 'sakamoto'),
+    (6, '遠藤陽菜乃', 'endo'),
+    (1, '青木咲良', 'aoki'),
+    (2, '藤井結月', 'huji'),
+    (3, '西村美月', 'nishimura'),
+    (4, '福田葵', 'hujita'),
+    (5, '太田海斗', 'ota'),
+    (6, '三浦慧', 'miura'),
+    (1, '岡本朔', 'okamoto'),
+    (2, '松田櫂', 'matsuda'),
+    (3, '中川岳', 'nakagawa'),
+    (4, '中野匠', 'nakano'),
+    (5, '原田大晴', 'harada'),
+    (6, '小野凪', 'ono'),
+    (1, '田村湊翔', 'tamura'),
+    (2, '竹内悠人', 'takeuchi'),
+    (3, '金子心翔', 'kaneko'),
+    (4, '菅原優', 'sugawara'),
+    (5, '市川悠斗', 'ichikawa'),
+    (6, '水野律希', 'mizuno'),
+    (1, '小松旭', 'komatsu'),
+    (2, '島田奏太', 'shimada'),
+    (3, '小山瑛斗', 'koyama'),
+    (4, '高野空', 'takano'),
+    (5, '西田結心', 'nishida'),
+    (6, '菊池仁', 'kikuchi');
