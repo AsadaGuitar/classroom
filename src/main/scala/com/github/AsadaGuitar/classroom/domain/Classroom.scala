@@ -23,9 +23,7 @@ sealed trait Classroom {
 
 object Classroom {
 
-  final case class Id(value: Int) extends ValueObject {
-    require(0 < value)
-  }
+  final case class Id(value: Int) extends ValueObject
 
   final case class Name(value: String) extends ValueObject {
     require(value.nonEmpty)

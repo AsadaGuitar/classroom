@@ -8,13 +8,11 @@ final case class Student(id: Student.Id,
                          close: Boolean,
                          createdAt: Instant,
                          modifiedAt: Option[Instant],
-                         closedAt: Option[Instant]) extends ValueObject
+                         closedAt: Option[Instant])
 
 object Student {
 
-  final case class Id(value: Int) extends ValueObject {
-    require(0 < value)
-  }
+  final case class Id(value: Int) extends ValueObject
 
   final case class Name(value: String) extends ValueObject {
     require(value.nonEmpty)
