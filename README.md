@@ -1,6 +1,7 @@
 # classroom
 <img src="https://img.shields.io/badge/build-passed-red" /> <img src="https://img.shields.io/badge/scala-2.13.8-blue?logo=scala"/> <img src="https://img.shields.io/badge/docker-20.10.12-blue?logo=docker"/>
 
+教室情報管理用API
 
 ## 技術スタック
 + Scala 2.13.8
@@ -9,12 +10,15 @@
 + Akka (-Typed, -Http)
 + Slick3
 
-
 ## レイヤードストラクチャ
 
 ### Domain
 + [Classroom](https://github.com/AsadaGuitar/classroom/blob/master/src/main/scala/com/github/AsadaGuitar/classroom/domain/Classroom.scala)
-  + 教室のドメインロジックを定義
+  + 教室のドメインモデルを定義
++ [Teacher](https://github.com/AsadaGuitar/classroom/blob/master/src/main/scala/com/github/AsadaGuitar/classroom/domain/Teacher.scala)
+  + 教師のデータモデルを定義
++ [Student](https://github.com/AsadaGuitar/classroom/blob/master/src/main/scala/com/github/AsadaGuitar/classroom/domain/Student.scala)
+  + 生徒のデータモデルを定義
   
 ### Repository
 + [ClassroomsRepository](https://github.com/AsadaGuitar/classroom/blob/master/src/main/scala/com/github/AsadaGuitar/classroom/domain/repository/ClassroomsRepository.scala)
