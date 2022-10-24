@@ -10,7 +10,7 @@
 + Slick3
 
 
-## アーキテクチャ
+## レイヤードストラクチャ
 
 ### Domain
 + [Classroom](https://github.com/AsadaGuitar/classroom/blob/master/src/main/scala/com/github/AsadaGuitar/classroom/domain/Classroom.scala)
@@ -32,7 +32,7 @@
 + [StudentsRepositoryImpl](https://github.com/AsadaGuitar/classroom/blob/master/src/main/scala/com/github/AsadaGuitar/classroom/adaptor/postgres/StudentsRepositoryImpl.scala)
   + StudentsRepositoryの具象クラス
 + [ClassroomsController](https://github.com/AsadaGuitar/classroom/blob/master/src/main/scala/com/github/AsadaGuitar/classroom/controller/ClassroomsController.scala)
-  + apiのディレクティブを定義
+  + APIを定義
 
 
 ## ER図
